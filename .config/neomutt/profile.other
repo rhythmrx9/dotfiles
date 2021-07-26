@@ -1,0 +1,23 @@
+set folder = "imaps://other_account@gmail.com@imap.gmail.com:993"
+set smtp_url = "smtps://other_account007@gmail.com@smtp.gmail.com:465"
+
+set smtp_pass = "account_password"
+set imap_pass = "account_password"
+
+set from = "name <other_account@gmail.com>"
+
+set spoolfile = "+INBOX"
+set record = "+Sent"
+set trash = "+Trash"
+set postponed = "+Drafts"
+
+mailboxes =INBOX =Sent =Trash =Drafts =Junk =Others
+
+
+set sort_aux = last-date-received                        
+set sort = reverse-threads
+
+
+set editor = "nvim"
+source color.muttrc
+

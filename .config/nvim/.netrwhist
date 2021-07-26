@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/rhythmrx9/.config/sxhkd'
+let g:netrw_dirhist_2='/home/rhythmrx9/Downloads/LibreOffice_7.0.6.2_Linux_x86-64_deb/readmes'
+let g:netrw_dirhist_3='/etc/wpa_supplicant'

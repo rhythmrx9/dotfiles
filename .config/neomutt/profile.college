@@ -1,0 +1,23 @@
+set folder = "imaps://college_account@college.ac.in@imap.gmail.com:993"
+set smtp_url = "smtps://college_account@college.ac.in@smtp.gmail.com:465"
+
+set smtp_pass = "account_password"
+set imap_pass = "account_password"
+
+set from = "college_account@college.ac.in"
+
+set spoolfile = "+INBOX"
+set record = "+Sent"
+set trash = "+Trash"
+set postponed = "+Drafts"
+
+mailboxes =INBOX =Sent =Trash =Drafts =Junk =Others
+
+
+set sort_aux = last-date-received                        
+set sort = reverse-threads
+
+
+set editor = "nvim"
+source color.muttrc
+

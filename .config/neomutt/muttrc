@@ -1,0 +1,9 @@
+folder-hook "Inbox-Private" 'source ~/.config/neomutt/profile.private'
+folder-hook "Inbox-College" 'source ~/.config/neomutt/profile.college'
+folder-hook "Inbox-Other" 'source ~/.config/neomutt/profile.other'
+
+source ~/.config/neomutt/profile.college
+
+macro index <f1> '<sync-mailbox><enter-command>source ~/.config/neomutt/profile.private<enter><change-folder>!<enter>'
+macro index <f2> '<sync-mailbox><enter-command>source ~/.config/neomutt/profile.college<enter><change-folder>!<enter>'
+macro index <f3> '<sync-mailbox><enter-command>source ~/.config/neomutt/profile.other<enter><change-folder>!<enter>'
